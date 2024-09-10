@@ -1,0 +1,208 @@
+body{
+    background-color: black;
+}
+
+.img1{
+    width:100vw;
+    height:45vw;
+    object-fit:cover;
+    object-position:center;
+    display:block;
+}
+.titulo{
+    text-align: center;
+    margin: 0;
+    color: rgb(183, 183, 193);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: bold;
+ }
+
+.boton{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color: rgb(13, 13, 88);
+color: white;
+border: none;
+cursor: pointer;
+font-size: 16px;
+position: absolute;
+top: 60%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 30px;
+font-weight: bold;
+
+}
+.titulo2{
+    position: absolute;
+    left: 55%;
+    color:rgb(49, 49, 117);
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top:840px;
+}
+.texto1{
+    position: absolute;
+    left: 45%;
+    color:rgb(183, 183, 193);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+    top: 900px;
+    
+    
+}
+.mapa{
+    height: 400px;
+    width: 780px;
+}
+.mapa path{
+    fill: white;
+    stroke: black;
+    stroke-width: 2px;
+}
+.mapa :hover{
+    fill: rgb(13, 13, 88);
+}
+.carrusel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    margin-top: 500px;
+}
+
+.imagenes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.img{
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.85);
+    height: 576px;
+    width: 1134px;
+    border-radius: 15px ;
+    margin: 5px;
+    object-fit: cover;
+    filter: saturate(175%);
+}
+
+.texto{
+    overflow: hidden;
+    position: absolute;
+    flex-direction: column;
+    transform: translateY(0px);
+    margin-bottom: 9px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(63, 106, 138, 0.21);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.texto h3{
+    text-shadow: 0px 0px 15px black;
+    padding-top: 40px;
+    color: white;
+    font-weight: 300;
+    font-size: 27px;
+}
+
+.texto p{
+    align-items: center;
+    padding: 20px;
+    color:white;
+    font-size: 0px;
+    font-weight: 300;
+}
+
+.imagenes .texto{
+    width: 800px;
+    height: 100px;
+    transition: 1s;
+}
+
+.imagenes:hover .texto{
+    transition: height 1s, transform 1s, background-color 1s;
+    transform: translateY(-150px);
+    height: 300px;
+    background-color: rgba(63, 106, 138, 0.71);
+}
+
+.imagenes:hover .texto p{
+    transition: font-size 0s .2s linear;
+    font-size: 23px;
+    font-weight: 300;
+
+    text-shadow: 0px 0px 10px #000000;
+}
+
+.puntos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.puntos p{
+    font-size: 100px;
+    font-weight: 500;
+    margin-top: -50px;
+    color: black;
+}
+
+.puntos .bold{
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #5E17EB ;
+}
+.atras{
+    width: 5px;
+    height: 5px;
+}
+.adelante{
+    width: 5px;
+    height: 5px;
+}
+
+.textoAleatorio{
+    text-align: center;
+    color: rgb(183, 183, 193);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:30px;
+    font-weight: bold;
+    margin-top: 2300px;
+}
+.boton1{
+ width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color: rgb(13, 13, 88);
+color: white;
+border: none;
+cursor: pointer;
+font-size: 16px;
+position: absolute;
+top: 60%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 30px;
+font-weight: bold;
+margin-top:2400px;
+}
+
+
